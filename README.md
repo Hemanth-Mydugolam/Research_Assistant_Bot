@@ -62,15 +62,15 @@ After retrieval, each document is graded by the LLM for relevance. If fewer than
 
 **1. Clone and install**
 ```bash
-git clone <repo-url>
+git clone https://github.com/Hemanth-Mydugolam/Research_Assistant_Bot.git
 cd Research_Assistant_Bot
 pip install -r requirements.txt
 ```
 
 **2. Configure API key**
 ```bash
-cp .env.example .env   # or rename .env.example → .env
-# Edit .env and set OPENAI_API_KEY=sk-...
+# Edit .env and set your key
+OPENAI_API_KEY=sk-...
 ```
 
 **3. Run**
